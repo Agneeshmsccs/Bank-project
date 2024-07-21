@@ -1,0 +1,112 @@
+/* Navbar Styles */
+.navbar {
+    background-color: #060708; /* Navbar background color */
+}
+  
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #2d34e9; /* Navbar text color */
+}
+  
+.navbar-brand:hover,
+.navbar-nav .nav-link:hover {
+    color: #ef0b0b; /* Navbar text color on hover */
+}
+
+/* Logout Button Styles */
+.logout {
+    color: #ffffff; /* Logout button text color */
+    background-color: #dc3545; /* Logout button background color */
+    border: none;
+    padding: 8px 16px;
+    margin-left: 10px; /* Adjust spacing between logout button and other nav items */
+}
+  
+.logout:hover {
+    background-color: #c82333; /* Logout button hover background color */
+    cursor: pointer;
+}
+
+/* Home Page Styles */
+.Home-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px; /* Adjust spacing from the top */
+}
+  
+.heading {
+    font-size: 7rem; /* Adjust font size as needed */
+    font-weight: bold;
+    color: #161515; /* Set the color of the heading */
+    text-align: center; /* Center align the text */
+}
+  
+.gif-container {
+    margin-top: 80px; /* Adjust margin from the top */
+}
+  
+.gif {
+    width: 800px; /* Adjust the width of the GIF */
+}
+
+/* Deposit and Withdraw Styles */
+.deposit,
+.withdraw {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px; /* Adjust spacing from the top */
+}
+  
+.deposit h1,
+.withdraw h1 {
+    font-size: 2rem; /* Adjust font size as needed */
+    font-weight: bold;
+    color: #333; /* Set the color of the heading */
+}
+  
+.balance {
+    margin-top: 20px; /* Adjust margin from the top */
+}
+  
+input[type='number'] {
+    margin-bottom: 10px; /* Adjust spacing between inputs */
+}
+
+/* Login Page Styles */
+.login-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px; /* Adjust spacing from the top */
+}
+  
+.login-page h1 {
+    font-size: 2rem; /* Adjust font size as needed */
+    font-weight: bold;
+    color: #333; /* Set the color of the heading */
+}
+  
+input[type='text'],
+input[type='password'] {
+    margin-bottom: 10px; /* Adjust spacing between inputs */
+}
+
+/* General Button Styles */
+button {
+    padding: 10px 20px; /* Adjust button padding */
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    cursor: pointer;
+}
+  
+button:hover {
+    background-color: #0056b3; /* Button hover background color */
+}
+
+/* Error Message Styles */
+.error {
+    color: red; /* Color for error messages */
+}
